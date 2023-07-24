@@ -1,0 +1,107 @@
+/* Services Section */
+.services-section {
+    background-color: #fff !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.service-card {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.service-title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.service-description {
+    margin-top: 10px;
+    color: #777;
+}
+
+.service-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Section Heading */
+.section-heading {
+    text-align: center;
+    color: #00AEAE  !important;
+    font-family: 'Times New Roman', Times, serif !important ;
+}
+
+.section-heading h3 {
+    font-size: 32px;
+    
+    color: #054d4d !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+/* Image */
+.img-circle {
+    border-radius: 50%;
+}
+
+/* Container */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .service-card {
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+    }
+}
+
+@media (min-width: 992px) {
+    .service-card {
+        flex-basis: calc(33.33% - 30px);
+        max-width: calc(33.33% - 30px);
+    }
+}

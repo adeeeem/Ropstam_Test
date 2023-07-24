@@ -1,0 +1,54 @@
+.login-page {
+    
+    height: 100vh;
+  
+}
+.login-page-leftSide{
+    background-color: #ffffff !important;
+     background-image: url('../images/Tablet\ login-bro.png');
+    background-size: 90% !important;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.icon{
+background-color: #00AEAE !important;
+}
+.login-form {
+    padding: 20px;
+    width: 300px;
+}
+
+.login-title {
+    margin-bottom: 20px;
+    color: #009688;
+}
+
+.login-input {
+    margin-bottom: 20px;
+}
+
+
+.login-button {
+    background-color: #00AEAE !important;
+    /* Change the button color to #00AEAE */
+    color: #fff;
+    margin-top: 30 !important;
+    margin-bottom: 20 !important;
+    /* Add margin between email and password input fields */
+}
+
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #009688 !important;
+  
+}
+.Mui-focused::placeholder {
+    color: teal !important;
+}
+.mail{
+    border-color: #000202 !important;
+
+}
+.mail input::placeholder {
+    color: teal !important;
+}

@@ -1,0 +1,111 @@
+.root {
+    font-family: 'Roboto, sans-serif';
+    
+}
+.Title_Section{
+
+    background-image: url("../images/Home1.jpeg");
+        background-repeat: no-repeat;
+       
+        height: 50hv !important;
+       
+}
+.Main{
+    height: 100hv;
+    width: 100%;
+    max-width: 100% !important;
+    padding: 0  !important;
+    margin: 0 !important;
+
+}
+.containerH {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../images/Home1.jpeg");
+    background-repeat: no-repeat;
+    background-position-y: -1cm;
+    background-size:cover;
+    align-items: center;
+    display: flex;
+    flex-direction: row !important; 
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding: 0 !important;
+   
+}
+.containerH>* {
+    display: inline-block !important;
+    /* Added */
+    margin-right: 10px;
+    /* Added */
+}
+.containerH h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Text2{
+     align-items: center;
+     justify-content: center !important;
+     text-align: center;
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+   
+}
+.Text3 {
+    align-items: center;
+    justify-content: center;
+    width: 30% !important;
+    
+}
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: #fff;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: transparent;
+}
+
+.headerActions {
+    margin-left: auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+.button {
+    background-color: #6610f2;
+    color: #fff;
+    padding: 5px 20px;
+    border-color: #6610f2;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 6px 0 #7543e1;
+}
+
+.input {
+    border-radius: 5px;
+    border: 1px solid #e5dcdc;
+}
+
