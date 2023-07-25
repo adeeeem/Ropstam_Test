@@ -110,7 +110,7 @@ const ContactForm = () => {
                 Mushrakah
               </h6>
               <p>
-                Ropstam Cars is your trusted partner in bringing your business to
+                Ropstam Cars is your trusted partner in bringing your life to
                 the next level. Our services are designed to help you achieve
                 your goals by providing expert guidance and support.
               </p>
@@ -151,8 +151,8 @@ const ContactForm = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         © 2023 Copyright:
-        <a className="text-reset fw-bold" href="https://scytalelabs.com/">
-          Scytalelabs.com
+        <a className="text-reset fw-bold" href="https://Ropstam Cars.com/">
+          Ropstamlabs.com
         </a>
       </div>
     </MDBFooter>
