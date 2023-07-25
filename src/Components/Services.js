@@ -63,10 +63,10 @@ const ServicesSection = () => {
                 className="service-description"
               >
                 Our financial partnership services are designed to help you
-                secure the funding you need to grow and succeed. We work with a
-                wide range of partners, including banks, investors, and venture
-                capitalists, to identify the best financing options for your
-                business.
+                secure the funding in your car bussiness , you need to grow and
+                succeed. We work with a wide range of partners, including banks,
+                investors, and venture capitalists, to identify the best
+                financing options for your business.
               </Typography>
             </ServiceCard>
           </Grid>
